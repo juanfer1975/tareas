@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TAREAS JUANFF</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>Tareas a realizar</h1>
+		</div>
+		<div id="inputContainer">
+			<input id="taskInput" type="text" placeholder="Agregar Tarea" maxlength="50" />
+		</div>
+		<div id="listWrapper">
+			<ul id="taskList">
+			</ul>
+		</div>
+		<div id="deleteBtnWrapper" >
+			<button id="deleteCompletedBtn" onclick="deleteCompleted()">Borrar completadas</button>
+			<button id="clearTasksBtn" onclick="deleteAll()">Limpiar</button>
+		</div>
+	</div>
+<script src="js/todo.js"></script>
+</body>
+</html>
